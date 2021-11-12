@@ -1,5 +1,5 @@
-# Input_patient_record
-Functionality developed Now create attractive Design
+<!-- # Input_patient_record
+Functionality developed Now create attractive Design -->
 # ClinicInputPatientRecord
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.10.

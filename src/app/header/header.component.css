@@ -1,0 +1,30 @@
+.container {
+    margin :0 auto;
+    width:80%;
+}
+.container .head-container{
+    margin:auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container .head-container .patient-rcrd-label{
+    text-align: center;
+}
+.container .head-container .area-span1 {
+    width:30%; height:20px;
+    float:left; background-color: rgb(233, 208, 175);
+}
+.container .head-container .area-span2 {
+    width:30%; height:20px;
+    float:right; background-color: rgb(233, 208, 175);
+}
+.container .doctor-info{
+    width:70%; height:200px;
+    float:left;
+    background-color: rgb(229, 236, 189);
+}
+
+.container .doctor-logo{
+    float:left;
+    background-color: rgb(26, 29, 29);
+    width:30%; height:200px;
+}
