@@ -1,30 +1,44 @@
 .container {
     margin :0 auto;
-    width:80%;
+    width:75%;
 }
 .container .head-container{
     margin:auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial, Helvetica, sans-serif';
 }
 .container .head-container .patient-rcrd-label{
     text-align: center;
 }
-.container .head-container .area-span1 {
-    width:30%; height:20px;
-    float:left; background-color: rgb(233, 208, 175);
+.container .head-container .head-label .patient-rcrd-label {
+    float:left; height:50px; width:30%; 
+    /* width:365.7px;  */
+    border-radius: 10px 10px 0 0;/** Top-Left Top-right Bottom-right Bottom-left*/
+    background-color: rgb(26, 29, 29);
 }
-.container .head-container .area-span2 {
-    width:30%; height:20px;
-    float:right; background-color: rgb(233, 208, 175);
+.container .head-container .head-label .patient-rcrd-label p{
+    font-weight: bold; margin:15px 37.5px;
+    color:white;
 }
-.container .doctor-info{
-    width:70%; height:200px;
-    float:left;
-    background-color: rgb(229, 236, 189);
+.container .head-container .head-label .area-span1 {
+    width:35%; height:50px;
+    border-radius: 0 10px 5px 0;/** Top-Left Top-right Bottom-right Bottom-left*/
+    float:left; background-color: rgb(229, 236, 189);
 }
-
-.container .doctor-logo{
+.container .head-container .head-label .area-span2 {
+    width:35%; height:50px;
+    border-radius: 10px 0 0 5px;/** Top-Left Top-right Bottom-right Bottom-left*/
+    float:right; background-color: rgb(229, 236, 189);
+}
+.container .doctor-info {
+    width:65%; height:200px;
+    float:left; 
+    background-color: rgb(190, 199, 143);
+}
+.container .doctor-info .doctor-name {
+    font-size: x-large; padding-left:5px;
+}
+.container .doctor-logo {
     float:left;
     background-color: rgb(26, 29, 29);
-    width:30%; height:200px;
+    width:35%; height:200px;
 }

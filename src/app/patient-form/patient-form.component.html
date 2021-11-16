@@ -1,3 +1,135 @@
-<p>
-  patient-form works!
-</p>
+<!-- <div class="question-wrapper questionWrapper  false">
+  <label id="label_4" class="form-label form-label-left" for="none" style="width: 230px;">
+    <div class="editor-container editorHasText" style="display: inline; width: 100%;">
+      <div class="inlineEditor" placeholder="Type a question" contenteditable="true" data-gramm="false" style="width: 100%;">Address:</div>
+    </div>
+  </label>
+  <div class="form-input" data-layout="full" style="position: relative;">
+    <div summary="" class="form-address-table jsTest-addressField">
+      <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+        <span class="form-address-line form-address-street-line jsTest-address-lineField">
+          <span class="form-sub-label-container" style="vertical-align: top;">
+            <input type="text" id="input_4_addr_line1" name="q4_address[addr_line1]" class="form-textbox form-address-line" data-defaultvalue="" tabindex="-1" data-component="address_line_1" aria-labelledby="label_4 sublabel_4_addr_line1" required="" value="">  
+            <span class="form-sub-label">
+              <div class="editor-container editorHasText" style="display: inline-block;">
+                <div class="inlineEditor" placeholder="Type a sublabel" contenteditable="true" data-gramm="false">Street Address</div>
+              </div>
+            </span>
+          </span>
+        </span>
+      </div>
+      <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+        <span class="form-address-line form-address-street-line jsTest-address-lineField">
+          <span class="form-sub-label-container" style="vertical-align: top;">
+            <input type="text" id="input_4_addr_line2" name="q4_address[addr_line2]" class="form-textbox form-address-line" data-defaultvalue="" tabindex="-1" data-component="address_line_2" aria-labelledby="label_4 sublabel_4_addr_line2" value=""> 
+            <span class="form-sub-label">
+              <div class="editor-container editorHasText" style="display: inline-block;">
+                <div class="inlineEditor" placeholder="Type a sublabel" contenteditable="true" data-gramm="false">Street Address Line 2</div>
+              </div>
+            </span>
+          </span>
+        </span>
+      </div>
+      <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+        <span class="form-address-line form-address-city-line jsTest-address-lineField ">
+          <span class="form-sub-label-container" style="vertical-align: top;">
+            <input type="text" id="input_4_city" name="q4_address[city]" class="form-textbox form-address-city" data-defaultvalue="" tabindex="-1" data-component="city" aria-labelledby="label_4 sublabel_4_city" required="" value=""> 
+            <span class="form-sub-label">
+              <div class="editor-container editorHasText" style="display: inline-block;">
+                <div class="inlineEditor" placeholder="Type a sublabel" contenteditable="true" data-gramm="false">City</div>
+              </div>
+            </span>
+          </span>
+        </span>
+        <span class="form-address-line form-address-state-line jsTest-address-lineField ">
+          <span class="form-sub-label-container" style="vertical-align: top;">
+            <input type="text" id="input_4_state" name="q4_address[state]" class="form-textbox form-address-state" data-defaultvalue="" tabindex="-1" data-component="state" aria-labelledby="label_4 sublabel_4_state" required="" value=""> <span class="form-sub-label"><div class="editor-container editorHasText" style="display: inline-block;"><div class="inlineEditor" placeholder="Type a sublabel" contenteditable="true" data-gramm="false">State / Province</div></div></span></span></span></div><div class="form-address-line-wrapper jsTest-address-line-wrapperField"><span class="form-address-line form-address-zip-line jsTest-address-lineField "><span class="form-sub-label-container" style="vertical-align: top;"><input type="text" id="input_4_postal" name="q4_address[postal]" class="form-textbox form-address-postal" data-defaultvalue="" tabindex="-1" data-component="zip" aria-labelledby="label_4 sublabel_4_postal" required="" value=""> <span class="form-sub-label"><div class="editor-container editorHasText" style="display: inline-block;"><div class="inlineEditor" placeholder="Type a sublabel" contenteditable="true" data-gramm="false">Postal / Zip Code</div></div></span></span></span></div></div></div>
+</div> -->
+
+
+
+<!-- <section class="form-container">
+  <div class="fields-container">
+    <form class="fields-form">
+    <div >
+      <label for="p_name" class="form-label">Patient Name</label>
+      <input type="text" class="form-fields" formControlname="name" ><br>
+    </div>
+    <div>
+      <label for="p_name" class="form-label">Gender</label><br>
+      <input type="radio" class="form-fields" value="Male"><span>Male</span>
+      <input type="radio" class="form-fields" value="Female"><span>Female</span><br>
+    </div>
+    <div>
+      <label for="age" class="form-label">Age</label>
+      <input type="number" class="form-fields" formControlname="name" ><br>
+    </div>
+    <div>
+      <label for="address" class="form-label">Address</label>
+      <input type="textarea" class="form-fields" formControlname="name" ><br>
+    </div>
+    </form>
+  </div>
+</section> -->
+
+<section class="form-container">
+<div class="card card-statistics mb-30">
+  <div class="card-body">
+      <h5 class="card-title">Form row</h5>
+      <form>
+          <div class="form-row">
+              <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                  <label for="inputPassword4">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-row">
+              <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                  </select>
+              </div>
+              <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+              </div>
+          </div>
+          <div class="form-group">
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                      Check me out
+                  </label>
+              </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+  </div>
+</div>
+</section>
