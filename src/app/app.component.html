@@ -1,13 +1,25 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gym Membership Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+  <body>
+
   <div>
-    <app-header></app-header>
+    <div>
+      <app-header></app-header>
+    </div>
+    <div *ngIf="route.routerState.snapshot.url.includes('patient-form')">
+      <app-patient-form></app-patient-form>
+    </div>
+    <div *ngIf="route.routerState.snapshot.url.includes('json-server-data')">
+      <app-json-server></app-json-server>
+    </div>
   </div>
-  <div *ngIf="route.routerState.snapshot.url.includes('patient-form')">
-    <app-patient-form></app-patient-form>
-  </div>
-  <div *ngIf="route.routerState.snapshot.url.includes('json-server-data')">
-    <app-json-server></app-json-server>
-  </div>
-</div>
+
+</body>
+</html>
 

@@ -1,16 +1,23 @@
 .container {
-    margin :0 auto;
+    margin :auto;
     width:75%;
 }
 .container .head-container{
-    margin:auto;
+    /* margin:auto; */
     font-family: 'Arial, Helvetica, sans-serif';
+    /* height: fit-content; */
+    /* display: flex; */
+    padding: 10px;
+    height: inherit;
+    background: #fff;
+    /* box-shadow: 0 0 30px 0 #a06506; */
 }
-.container .head-container .patient-rcrd-label{
+/* .container .head-container .patient-rcrd-label{
     text-align: center;
-}
+    box-shadow: 0 0 30px 0 #095484;
+} */
 .container .head-container .head-label .patient-rcrd-label {
-    float:left; height:50px; width:30%; 
+    float:left; height:50px; width:30%;
     /* width:365.7px;  */
     border-radius: 10px 10px 0 0;/** Top-Left Top-right Bottom-right Bottom-left*/
     background-color: rgb(26, 29, 29);
@@ -31,8 +38,9 @@
 }
 .container .doctor-info {
     width:65%; height:200px;
-    float:left; 
+    float:left;
     background-color: rgb(190, 199, 143);
+    border-radius: 6px;
 }
 .container .doctor-info .doctor-name {
     font-size: x-large; padding-left:5px;
@@ -41,4 +49,33 @@
     float:left;
     background-color: rgb(26, 29, 29);
     width:35%; height:200px;
+    border-radius: 6px;
+}
+@media (max-width: 568px) {
+  /* .name-item, .city-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  } */
+  .doctor-info {
+    display:none;
+    float:none;
+  }
+  .doctor-logo {
+    width:50%;
+    float:none;
+  }
+  .area-span1, .area-span2 {
+    display:none;
+  }
+  .patient-rcrd-label {
+    width:400px;
+    float:none;
+  }
+  /* .name-item input, .city-item input {
+    width: calc(50% - 20px);
+  } */
+  /* .city-item select {
+    width: calc(50% - 8px);
+  } */
 }
